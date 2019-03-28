@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='root_report',  
-     version='0.1',
+     version='0.1.6',
      scripts=[] ,
      author="Lucio Anderlini",
      author_email="l.anderlini@gmail.com",
@@ -16,7 +16,11 @@ setuptools.setup(
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 2.7",
-         "License :: OSI Approved :: LGPL2.1 License",
+         "Programming Language :: Python :: 3.4",
+         "Programming Language :: Python :: 3.5",
+         "Programming Language :: Python :: 3.6",
+         "Programming Language :: Python :: 3.7",
+         "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
          "Operating System :: OS Independent",
      ],
  )
